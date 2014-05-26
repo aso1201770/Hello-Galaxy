@@ -37,13 +37,10 @@
                 android:text="@string/first_name" />
 
             <EditText
-                android:id="@+id/firstNameText"
+                android:id="@+id/edtFirst"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:ems="10" >
-
-                <requestFocus />
-            </EditText>
+                android:ems="10" />
 
         </TableRow>
 
@@ -57,23 +54,45 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/family_name" />
+
             <EditText
-                android:id="@+id/familyNameText"
+                android:id="@+id/edtFamily"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-               />
+                android:ems="10" >
+
+                <requestFocus />
+            </EditText>
+
         </TableRow>
+
     </TableLayout>
 
+    <GridLayout
+        android:id="@+id/gridLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/linearLayout1"
+        android:layout_centerVertical="true" >
+
+        <TextView
+            android:id="@+id/txvMsg"
+            android:layout_width="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="25dp"
+            android:text="Large Text" />
+    </GridLayout>
+
     <LinearLayout
+        android:id="@+id/linearLayout1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_above="@+id/gridLayout1"
         android:layout_alignLeft="@+id/tableLayout1"
-        android:layout_below="@+id/tableLayout1"
-        android:layout_marginTop="26dp" >
+        android:layout_marginBottom="18dp" >
 
         <Button
-            android:id="@+id/button1"
+            android:id="@+id/btnOK"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/button_ok" />
