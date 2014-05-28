@@ -1103,18 +1103,18 @@ containing a value of this type.
         public static final int disableHome=0x7f050008;
         public static final int dropdown=0x7f05000f;
         public static final int edit_query=0x7f050030;
-        public static final int edtFamily=0x7f050043;
-        public static final int edtFirst=0x7f050040;
+        public static final int edtFamily=0x7f050042;
+        public static final int edtFirst=0x7f05003f;
         public static final int end=0x7f050013;
         public static final int expand_activities_button=0x7f050026;
         public static final int expanded_menu=0x7f05002c;
-        public static final int gridLayout1=0x7f050044;
+        public static final int gridLayout1=0x7f050043;
         public static final int home=0x7f050014;
         public static final int homeAsUp=0x7f050005;
         public static final int icon=0x7f05002a;
         public static final int ifRoom=0x7f05000a;
         public static final int image=0x7f050027;
-        public static final int linearLayout1=0x7f05003d;
+        public static final int linearLayout1=0x7f050044;
         public static final int listMode=0x7f050001;
         public static final int list_item=0x7f050029;
         public static final int middle=0x7f050012;
@@ -1142,10 +1142,10 @@ containing a value of this type.
         public static final int submit_area=0x7f050039;
         public static final int tabMode=0x7f050002;
         public static final int tableLayout1=0x7f05003c;
-        public static final int tableRow1=0x7f05003e;
-        public static final int tableRow2=0x7f050041;
-        public static final int textView1=0x7f05003f;
-        public static final int textView2=0x7f050042;
+        public static final int tableRow1=0x7f05003d;
+        public static final int tableRow2=0x7f050040;
+        public static final int textView1=0x7f05003e;
+        public static final int textView2=0x7f050041;
         public static final int title=0x7f05002b;
         public static final int top_action_bar=0x7f050020;
         public static final int txvMsg=0x7f050045;
@@ -1204,7 +1204,8 @@ containing a value of this type.
         public static final int abc_search_view=0x7f030016;
         public static final int abc_simple_decor=0x7f030017;
         public static final int activity_main=0x7f030018;
-        public static final int support_simple_spinner_dropdown_item=0x7f030019;
+        public static final int mag_activity=0x7f030019;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001a;
     }
     public static final class menu {
         public static final int main=0x7f0c0000;
